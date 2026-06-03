@@ -70,6 +70,6 @@ Read-only security and compliance assessment for Microsoft 365 tenants. Three sc
 
 Built by [Andy Kemp Consulting](https://www.andykemp.com) — Microsoft 365 Security, Identity & Migration Specialist
 
-[:material-linkedin: LinkedIn](https://www.linkedin.com/in/andrewgkemp/){ .md-button } · [:material-github: GitHub](https://github.com/andrew-kemp/){ .md-button } · [:material-phone: +44 131 376 1802](tel:+441313761802){ .md-button }
+[:material-linkedin: LinkedIn](https://www.linkedin.com/in/andrewgkemp/){ .md-button } · [:material-github: GitHub](https://github.com/andy-kemp/){ .md-button } · [:material-phone: +44 131 376 1802](tel:+441313761802){ .md-button }
 
 </div>

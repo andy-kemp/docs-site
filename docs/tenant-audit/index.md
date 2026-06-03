@@ -76,4 +76,4 @@ The audit examines **70+ configuration points** across your tenant:
 
 ## Source Code
 
-[:material-github: GitHub Repository](https://github.com/andrew-kemp/andykemp-audit){ .md-button }
+[:material-github: GitHub Repository](https://github.com/andy-kemp/andykemp-audit){ .md-button }

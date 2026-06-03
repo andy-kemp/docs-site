@@ -80,4 +80,4 @@ SharePoint status: "Sent"          Email open tracked (pixel)
 
 ## Source Code
 
-[:material-github: GitHub Repository](https://github.com/andrew-kemp/MFA-Onboard-Tool){ .md-button }
+[:material-github: GitHub Repository](https://github.com/andy-kemp/MFA-Onboard-Tool){ .md-button }

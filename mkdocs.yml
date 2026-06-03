@@ -42,7 +42,7 @@ extra:
       link: https://www.linkedin.com/in/andrewgkemp/
       name: Andy Kemp on LinkedIn
     - icon: fontawesome/brands/github
-      link: https://github.com/andrew-kemp/
+      link: https://github.com/andy-kemp/
       name: Andy Kemp on GitHub
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@KempyAG
@@ -55,8 +55,8 @@ extra:
 extra_css:
   - assets/css/custom.css
 
-repo_url: https://github.com/andrew-kemp
-repo_name: andrew-kemp
+repo_url: https://github.com/andy-kemp
+repo_name: andy-kemp
 
 markdown_extensions:
   - admonition
@@ -132,3 +132,11 @@ nav:
     - Quick Assessment: privileged-path/quick-assess.md
     - The Framework: privileged-path/framework.md
     - Privileged Access Workstations: privileged-path/paw.md
+  - Win11 Image Prep:
+    - win11-image-prep/index.md
+    - Quick Start: win11-image-prep/quick-start.md
+    - Tools:
+      - Windows Application: win11-image-prep/windows-app.md
+      - PowerShell Script: win11-image-prep/powershell.md
+    - Requirements: win11-image-prep/requirements.md
+    - Troubleshooting: win11-image-prep/troubleshooting.md

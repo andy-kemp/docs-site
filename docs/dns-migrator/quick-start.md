@@ -9,7 +9,7 @@ The fastest way — deploy to Cloudflare Pages with zero infrastructure.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/andrew-kemp/DNS-Migrator.git
+git clone https://github.com/andy-kemp/DNS-Migrator.git
 cd DNS-Migrator
 ```
 
@@ -42,7 +42,7 @@ That's it — your DNS Migrator is live. Open the URL provided by Wrangler.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/andrew-kemp/DNS-Migrator.git
+git clone https://github.com/andy-kemp/DNS-Migrator.git
 cd DNS-Migrator
 npm install
 ```

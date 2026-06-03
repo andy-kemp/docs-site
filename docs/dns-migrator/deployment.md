@@ -9,7 +9,7 @@ The simplest deployment — serverless, free tier, auto-scaling.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/andrew-kemp/DNS-Migrator.git
+git clone https://github.com/andy-kemp/DNS-Migrator.git
 cd DNS-Migrator
 npm install
 ```
@@ -47,7 +47,7 @@ Run DNS Migrator on your local machine with Express.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/andrew-kemp/DNS-Migrator.git
+git clone https://github.com/andy-kemp/DNS-Migrator.git
 cd DNS-Migrator
 npm install
 ```
@@ -84,7 +84,7 @@ This starts a local dev server at `http://localhost:3000` using the Wrangler run
 The PowerShell scripts run directly from the cloned repository — no server or deployment required.
 
 ```bash
-git clone https://github.com/andrew-kemp/DNS-Migrator.git
+git clone https://github.com/andy-kemp/DNS-Migrator.git
 cd DNS-Migrator
 ```
 

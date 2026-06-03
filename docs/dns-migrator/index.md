@@ -61,4 +61,4 @@ Nameservers displayed for registrar update
 
 ## Source Code
 
-[:material-github: GitHub Repository](https://github.com/andrew-kemp/DNS-Migrator){ .md-button }
+[:material-github: GitHub Repository](https://github.com/andy-kemp/DNS-Migrator){ .md-button }

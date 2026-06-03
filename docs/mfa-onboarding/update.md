@@ -77,7 +77,7 @@ cd C:\path\to\MFA-Onboard-Tool-main
 Then run this one-liner (preserves your `mfa-config.ini`):
 
 ```powershell
-iwr https://github.com/andrew-kemp/MFA-Onboard-Tool/archive/refs/heads/main.zip -OutFile $env:TEMP\mfa-update.zip; Expand-Archive $env:TEMP\mfa-update.zip $env:TEMP\mfa-update -Force; if (Test-Path .\v2\mfa-config.ini) { Copy-Item .\v2\mfa-config.ini $env:TEMP\mfa-config.ini.bak }; Remove-Item .\v2 -Recurse -Force -ErrorAction SilentlyContinue; Copy-Item $env:TEMP\mfa-update\MFA-Onboard-Tool-main\v2 .\v2 -Recurse -Force; if (Test-Path $env:TEMP\mfa-config.ini.bak) { Copy-Item $env:TEMP\mfa-config.ini.bak .\v2\mfa-config.ini -Force; Remove-Item $env:TEMP\mfa-config.ini.bak }; Remove-Item $env:TEMP\mfa-update,$env:TEMP\mfa-update.zip -Recurse -Force
+iwr https://github.com/andy-kemp/MFA-Onboard-Tool/archive/refs/heads/main.zip -OutFile $env:TEMP\mfa-update.zip; Expand-Archive $env:TEMP\mfa-update.zip $env:TEMP\mfa-update -Force; if (Test-Path .\v2\mfa-config.ini) { Copy-Item .\v2\mfa-config.ini $env:TEMP\mfa-config.ini.bak }; Remove-Item .\v2 -Recurse -Force -ErrorAction SilentlyContinue; Copy-Item $env:TEMP\mfa-update\MFA-Onboard-Tool-main\v2 .\v2 -Recurse -Force; if (Test-Path $env:TEMP\mfa-config.ini.bak) { Copy-Item $env:TEMP\mfa-config.ini.bak .\v2\mfa-config.ini -Force; Remove-Item $env:TEMP\mfa-config.ini.bak }; Remove-Item $env:TEMP\mfa-update,$env:TEMP\mfa-update.zip -Recurse -Force
 ```
 
 Then apply the update:

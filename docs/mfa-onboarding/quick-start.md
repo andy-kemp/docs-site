@@ -21,7 +21,7 @@ Before you begin, ensure you have:
 Open **PowerShell 7** (`pwsh`) and run the one-liner bootstrap command:
 
 ```powershell
-irm https://raw.githubusercontent.com/andrew-kemp/MFA-Onboard-Tool/main/v2/Get-MFAOnboarder.ps1 -OutFile Get-MFAOnboarder.ps1; .\Get-MFAOnboarder.ps1
+irm https://raw.githubusercontent.com/andy-kemp/MFA-Onboard-Tool/main/v2/Get-MFAOnboarder.ps1 -OutFile Get-MFAOnboarder.ps1; .\Get-MFAOnboarder.ps1
 ```
 
 This does three things:
@@ -33,7 +33,7 @@ This does three things:
 !!! tip "Alternative: Manual Download"
     If you prefer to download manually:
     ```powershell
-    Invoke-WebRequest -Uri "https://github.com/andrew-kemp/MFA-Onboard-Tool/archive/refs/heads/main.zip" -OutFile mfa-tool.zip
+    Invoke-WebRequest -Uri "https://github.com/andy-kemp/MFA-Onboard-Tool/archive/refs/heads/main.zip" -OutFile mfa-tool.zip
     Expand-Archive mfa-tool.zip -DestinationPath . -Force
     cd MFA-Onboard-Tool-main\v2
     .\Setup.ps1

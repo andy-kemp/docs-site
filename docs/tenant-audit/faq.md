@@ -120,7 +120,7 @@ Reports are available for **30 days** after the audit completes. Download them p
 
 ### I found a bug or have a feature request
 
-Open an issue on the [:material-github: GitHub repository](https://github.com/andrew-kemp/andykemp-audit/issues).
+Open an issue on the [:material-github: GitHub repository](https://github.com/andy-kemp/andykemp-audit/issues).
 
 ### How do I contact Andy Kemp Consulting?
 
