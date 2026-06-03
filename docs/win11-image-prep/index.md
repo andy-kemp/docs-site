@@ -59,12 +59,13 @@ Format USB as FAT32 → Copy all files → Bootable USB ready
 
 - :material-usb: **Bootable USB creation** — UEFI-compatible FAT32, MBR partitioned, 14GB+ partition
 - :material-screwdriver: **Driver injection** — WinPE, Setup, all editions, and WinRE in one pass
-- :material-package-variant-remove: **App removal** — remove provisioned Windows apps before deployment via DISM
+- :material-package-variant-remove: **App removal** — remove provisioned Windows apps before deployment; dynamic discovery scans the ISO to find all ~47 packages present in your specific image
 - :material-format-list-checks: **Edition control** — select which Windows editions to include, suppress others
-- :material-content-save: **Saved images** — save prepared images to `C:\WinImagePrep\SavedImages\` for fast reuse
+- :material-content-save: **Saved images** — save prepared images to `C:\Win11ImagePrep\SavedImages\` for fast reuse
 - :material-shield-check: **Driver validation** — checks for `.inf` and `.cat` signature files before injection
 - :material-progress-clock: **Real-time logging** — live operation log throughout the entire process
 - :material-broom: **Auto-cleanup** — temporary files cleaned automatically; saved images preserved
+- :material-update: **Auto-update** — check for and install updates directly from the Tools menu
 
 ## Quick Links
 

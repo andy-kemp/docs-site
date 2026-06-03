@@ -60,9 +60,9 @@ Get-WindowsImage -Mounted | ForEach-Object {
 }
 
 # Clean working directories
-Remove-Item -Path C:\WinImagePrep\Mount\* -Recurse -Force
-Remove-Item -Path C:\WinImagePrep\Windows11\* -Recurse -Force
-Remove-Item -Path C:\WinImagePrep\Drivers\* -Recurse -Force
+Remove-Item -Path C:\Win11ImagePrep\Temp\Mount\* -Recurse -Force
+Remove-Item -Path C:\Win11ImagePrep\Temp\ExtractedISO\* -Recurse -Force
+Remove-Item -Path C:\Win11ImagePrep\Temp\Drivers\* -Recurse -Force
 ```
 
 ---
@@ -75,7 +75,7 @@ Remove-Item -Path C:\WinImagePrep\Drivers\* -Recurse -Force
 
 - Delete `C:\Windows\Temp\` contents
 - Run **Disk Cleanup → Clean up system files** to remove Windows Update files
-- Check `C:\WinImagePrep\` for leftover working files from previous runs and delete them
+- Check `C:\Win11ImagePrep\Temp\` for leftover working files from previous runs and delete them
 
 ---
 

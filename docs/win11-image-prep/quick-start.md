@@ -39,7 +39,7 @@ Click **Browse...** next to **2. Select Driver MSI** and select your hardware dr
 
 Click **Select Specific Windows Editions** to choose which editions to include in the prepared image. By default all editions are processed — selecting only the editions you need (e.g. Pro only) significantly reduces processing time.
 
-You can also click the **Apps** button to select which built-in Windows apps to remove from the image.
+To remove built-in Windows apps from the image, click the **Apps** button. When you enable app removal, the application will offer to scan the ISO automatically and load the full list of provisioned apps present in that image. You can also click the green **Load Apps from ISO** button at any time to trigger the scan manually.
 
 ## Step 6 — Prepare the Image
 
@@ -73,7 +73,7 @@ Your bootable Windows 11 USB is ready. Boot the target device from the USB in UE
 
 ## Save for Later
 
-After the USB is created, the application asks if you want to save the prepared image. Saved images are stored in `C:\WinImagePrep\SavedImages\` and can be used to create additional USB drives much faster — skipping the full ISO extraction and driver injection process.
+After the USB is created, the application asks if you want to save the prepared image. Saved images are stored in `C:\Win11ImagePrep\SavedImages\` (the default working root, configurable via **Tools > Options**) and can be used to create additional USB drives much faster — skipping the full ISO extraction and driver injection process.
 
 ---
 

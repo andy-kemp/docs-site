@@ -3,7 +3,7 @@
 `WinImagePrep_V3.ps1` is a self-contained PowerShell WPF application that provides the same driver injection and USB creation workflow as the Windows Application, using PowerShell and .NET WPF controls. It is the predecessor to the native WPF app and is suited to environments where running a known script is preferred over a compiled executable.
 
 !!! note "Recommendation"
-    For most deployments the [Windows Application](windows-app.md) (`WinImagePrep_full.exe`) is recommended. It is actively developed, has more features (v4.0.4 vs v3), and requires no execution policy changes.
+    For most deployments the [Windows Application](windows-app.md) (`WinImagePrep_full.exe`) is recommended. It is actively developed, has more features (v4.4.1 vs v3), and requires no execution policy changes.
 
 ## When to Use the Script
 
@@ -116,6 +116,10 @@ Some antivirus products flag PowerShell scripts that use WMI, DISM, disk partiti
 | Feature | PowerShell Script (V3) | Windows Application (V4) |
 |---------|----------------------|-------------------------|
 | App removal dialog | No | Yes |
+| Dynamic app discovery from ISO | No | Yes |
+| GitHub-hosted app list (x64 + ARM64) | No | Yes |
+| Auto-update system | No | Yes |
+| Grouped architecture support | No | Yes |
 | Operation close protection | No | Yes |
 | Menu bar | No | Yes |
 | Active development | No | Yes |

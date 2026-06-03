@@ -14,16 +14,20 @@ Administrator privileges are required. The application and script will prompt fo
 
 ## Disk Space
 
-A minimum of **25GB free space on the C: drive** is required for working files during image preparation.
+A minimum of **25GB free space** is required for working files during image preparation. The working root defaults to `C:` but is configurable via **Tools > Options** — it must be a local fixed drive.
 
 | Working directory | Approximate size |
-|------------------|-----------------|
-| `C:\WinImagePrep\Windows11\` — extracted ISO | ~5 GB |
-| `C:\WinImagePrep\Drivers\` — extracted MSI drivers | ~2 GB |
-| `C:\WinImagePrep\Mount\` — mounted WIM images | ~15 GB |
+|------------------|------------------|
+| `{WorkingRoot}\Temp\ExtractedISO\` — extracted ISO | ~5 GB |
+| `{WorkingRoot}\Temp\Drivers\` — extracted MSI drivers | ~2 GB |
+| `{WorkingRoot}\Temp\Mount\` — mounted WIM images | ~15 GB |
 | Buffer for temporary operations | ~3 GB |
 
-Working directories are cleaned automatically after a successful run or on the next startup. Saved images in `C:\WinImagePrep\SavedImages\` persist and are not cleaned automatically — manage these manually as needed.
+The default working root is `C:\Win11ImagePrep\`. Application settings are stored separately at `C:\ProgramData\Win11ImagePrep\settings.json` regardless of where the working root is set.
+
+`{WorkingRoot}\Temp\` is used for both the standard extracted ISO and the Create USB from ISO workflow — the two paths are not used simultaneously.
+
+Working directories are cleaned automatically after a successful run or on the next startup. Saved images in `{WorkingRoot}\SavedImages\` persist and are not cleaned automatically — manage these manually as needed.
 
 ## RAM
 
